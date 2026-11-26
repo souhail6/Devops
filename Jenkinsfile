@@ -6,6 +6,7 @@ pipeline {
         echo 'Etape Build en cours...'
         sh 'echo "Compilation du projet"'
         sh 'sleep 3'
+        echo 'Building'
       }
     }
 
