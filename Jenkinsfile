@@ -15,6 +15,7 @@ pipeline {
         echo 'Etape Test en cours...'
         sh 'echo "Execution des tests"'
         sh 'sleep 2'
+        echo 'Building'
       }
     }
 
